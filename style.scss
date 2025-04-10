@@ -12,7 +12,7 @@ section.nav {
     justify-content: space-between;
     align-items: center;
     padding: 0.5em 5em;
-    background-color: beige;
+    background-color: #f3f3f7;
     border-bottom: 1px lightgrey solid;
 
     .logo {
@@ -23,15 +23,25 @@ section.nav {
 
     ul {
         display: flex;
-        gap: 1.5em;
+        gap: 2em;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
     }
 
     button {
-        padding: 0.5em 1em;
+        padding: 1em 1.5em;
         margin: 2px;
-        background-color: beige;
+        background-color: transparent;
         border: 1px gray solid;
         border-radius: 6px;
+    }
+
+    .bag {
+        background-color: blueviolet;
+        padding: 0.2em 0.5em 0 0.5em;
+        position: relative;
+        top: 0.5em;
+        right: 0.5em;
     }
 }
 
@@ -184,7 +194,7 @@ section.hero {
         gap: 2em;
         
         div {
-            background-color: beige;
+            background-color: #f3f3f7;
             display: inline-block;
             padding: 1em 2em 1em;
             border-radius: 20px;
@@ -258,7 +268,7 @@ section.hero {
     cursor: pointer;
     display: inline-block;
     border: 1px gray solid;
-    padding: 2em;
+    padding: 2em 2.5em;
     margin: 2em;
     border-radius: 20px;
     text-align: center;
@@ -294,4 +304,74 @@ section.hero {
         }
     }
     
+}
+
+
+
+section.footer {
+    margin-top: 5em;
+    background-color: #15162f;
+    padding: 0 5em;    
+
+    .nav {
+        padding-top: 3em;
+        background-color: transparent;
+        padding-left: 0;
+        padding-right: 0;
+        border-color: rgb(124, 124, 124);
+        * {
+            color: white;
+        }
+    }
+
+    .subscribe {
+        color: white;
+        text-align: center;
+        padding: 1em 0;
+        font-size: 130%;
+        border-bottom: 1px rgb(124, 124, 124) solid;
+
+        input {
+            width: 30em;
+            height: 2.5em;
+            border: 3px whitesmoke;
+            border-radius: 5px;
+            padding: 0.3em 1.5em;
+            margin-bottom: 2em;
+        }
+        button {
+            background-color: blueviolet;
+            border: 0;
+            color: white;
+            height: 3.1em;
+            border-radius: 5px;
+            position: relative;
+            right: 20px;
+            padding: 0 1em;
+        }
+    }
+
+    .copyright {
+        color: white;
+        padding: 1em 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+
+        span {
+            color: aqua;
+        }
+
+        .socials {
+            display: flex;
+            gap: 0.5em;
+            img {
+                padding: 0.2em;
+                width: 20px;
+                border: 2px blueviolet solid;
+            }
+
+        }
+    }
 }
