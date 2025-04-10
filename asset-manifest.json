@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/EleBooks.github.io/static/js/main.3b210d47.js",
+    "main.js": "/EleBooks.github.io/static/js/main.f169f5c1.js",
     "static/media/dune.webp": "/EleBooks.github.io/static/media/dune.9e10f1b8043906436602.webp",
     "static/media/2.jpg": "/EleBooks.github.io/static/media/2.4c299c3816ccca0abeac.jpg",
     "static/media/1.jpg": "/EleBooks.github.io/static/media/1.6981413e115d740645c4.jpg",
@@ -15,9 +15,9 @@
     "static/media/subscription.svg": "/EleBooks.github.io/static/media/subscription.d0823141d924a35379794478d9f9d1a1.svg",
     "static/media/search.svg": "/EleBooks.github.io/static/media/search.5820571ceb535a44b61095a16ed9584b.svg",
     "index.html": "/EleBooks.github.io/index.html",
-    "main.3b210d47.js.map": "/EleBooks.github.io/static/js/main.3b210d47.js.map"
+    "main.f169f5c1.js.map": "/EleBooks.github.io/static/js/main.f169f5c1.js.map"
   },
   "entrypoints": [
-    "static/js/main.3b210d47.js"
+    "static/js/main.f169f5c1.js"
   ]
 }
